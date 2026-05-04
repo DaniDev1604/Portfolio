@@ -236,6 +236,7 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text); }
     opacity: 0;
     transition: opacity .3s;
     border-radius: 10px;
+    pointer-events: none;
 }
 
 .proj-card:hover {
