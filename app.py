@@ -155,15 +155,18 @@ body { font-family: 'DM Sans', sans-serif; color: var(--text); }
     position: absolute;
     top: 5rem;
     right: 0;
+    left: 0;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 14rem;
+    font-size: clamp(3rem, 7vw, 5.5rem);
     font-weight: 300;
     color: transparent;
     -webkit-text-stroke: 1px rgba(191,133,255,.12);
     line-height: 1;
     pointer-events: none;
     user-select: none;
-    letter-spacing: -.05em;
+    letter-spacing: .05em;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 /* ── Section header ── */
@@ -538,7 +541,7 @@ st.markdown('<div class="port-wrap">', unsafe_allow_html=True)
 # Hero
 st.markdown(f"""
 <div class="hero">
-  <div class="hero-deco">IMM</div>
+  <div class="hero-deco">Daniela Gomez Ospina</div>
   <div class="hero-eyebrow">Portafolio académico</div>
   <h1 class="hero-title">Interfaces<br><em>Multimodales</em></h1>
   <p class="hero-sub">
